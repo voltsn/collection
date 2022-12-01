@@ -1,0 +1,119 @@
+{
+    "movies": [
+        {
+            "title": "Three Thousand Years of Longing",
+            "releaseYear": 2022,
+            "director": "George Miller",
+            "genre": [
+                "Fantasy",
+                "Romance",
+                "Drama"
+            ],
+            "plot": "A lonely scholar, on a trip to Istanbul, discovers a Djinn who offers her three wishes in exchange for his freedom.",
+            "trailer": "https://www.imdb.com/video/vi1937228313/?playlistId=tt9198364&ref_=tt_ov_vi"
+        },
+        {
+            "title": "Parasite",
+            "releaseYear": 2019,
+            "director": "Bong Joon Ho",
+            "genre": [
+                "Drama",
+                "Thriller"
+            ],
+            "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+            "trailer": "https://www.imdb.com/video/vi1015463705/?playlistId=tt6751668&ref_=tt_ov_vi"
+        },
+        {
+            "title": "The Handmaiden",
+            "releaseYear": 2016,
+            "director": "Park Chan-wook",
+            "genre": [
+                "Drama",
+                "Romance",
+                "Thriller"
+            ],
+            "plot": "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.",
+            "trailer": "https://www.imdb.com/video/vi3452614681/?playlistId=tt4016934&ref_=tt_ov_vi"
+        },
+        {
+            "title": "The Shape of Water",
+            "releaseYear": 2017,
+            "director": "Guillermo del Toro",
+            "genre": [
+                "Drama",
+                "Fantasy",
+                "Romance"
+            ],
+            "plot": "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.",
+            "trailer": "https://www.imdb.com/video/vi4105025561/?playlistId=tt5580390&ref_=tt_ov_vi"
+        },
+        {
+            "title": "Blade Runner 2049",
+            "releaseYear": 2017,
+            "director": "Denis Villeneuve",
+            "genre": [
+                "Action",
+                "Sci-Fi",
+                "Mystery"
+            ],
+            "plot": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+            "trailer": "https://www.imdb.com/video/vi3362371865/?playlistId=tt1856101&ref_=tt_ov_vi"
+        },
+        {
+            "title": "Dune",
+            "releaseYear": 2021,
+            "director": "Denis Villeneuve",
+            "genre": [
+                "Adventure",
+                "Sci-Fi",
+                "Action"
+            ],
+            "plot": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+            "trailer": "https://www.imdb.com/video/vi3986080537/?playlistId=tt1160419&ref_=tt_ov_vi"
+        },
+        {
+            "title": "Interstellar",
+            "releaseYear": 2014,
+            "director": "Christopher Nolan",
+            "genre": [
+                "Adventure",
+                "Sci-Fi"
+            ],
+            "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+            "trailer": "https://www.imdb.com/title/tt0816692/?ref_=tt_sims_tt_i_2"
+        },
+        {
+            "title": "Spirited Away",
+            "releaseYear": 2001,
+            "director": "Hayao Miyazaki",
+            "genre": [
+                "Animation",
+                "Family"
+            ],
+            "plot": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+            "trailer": "https://www.imdb.com/video/vi3619684633/?playlistId=tt0245429&ref_=tt_ov_vi"
+        },
+        {
+            "title": "Anastasia",
+            "releaseYear": 1997,
+            "director": ["Don Bluth", "Gary Goldman"],
+            "genre": [
+                "Animation",
+                "Drama"
+            ],
+            "plot": "The last surviving child of the Russian Royal Family joins two con men to reunite with her grandmother, the Dowager Empress, while the undead Rasputin seeks her death.",
+            "trailer": "https://www.imdb.com/video/vi257277721/?playlistId=tt0118617&ref_=tt_pr_ov_vi"
+        },
+        {
+            "title": "I Saw The Devil",
+            "releaseYear": 2010,
+            "director": "Jee-woon Kim",
+            "genre": [
+                "Thriller",
+                "Crime"
+            ],
+            "plot": "A secret agent exacts revenge on a serial killer through a series of captures and releases.",
+            "trailer": "https://www.imdb.com/video/vi3158612505/?playlistId=tt1588170&ref_=tt_ov_vi"
+        }
+    ]
+}
