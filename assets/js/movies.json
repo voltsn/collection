@@ -9,6 +9,10 @@
                 "Romance",
                 "Drama"
             ],
+            "poster": {
+                "src": "https://m.media-amazon.com/images/M/MV5BZDFjMTQ3YjgtMTE1Yy00NjMxLWJiOTQtZGYxNWY2NTc0NWNiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+                "alt": "Idris Elba and Tilda Swinton in Three Thousand Years of Longing (2022)"
+            },
             "plot": "A lonely scholar, on a trip to Istanbul, discovers a Djinn who offers her three wishes in exchange for his freedom.",
             "trailer": "https://www.imdb.com/video/vi1937228313/?playlistId=tt9198364&ref_=tt_ov_vi"
         },
