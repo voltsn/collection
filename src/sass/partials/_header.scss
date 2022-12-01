@@ -1,0 +1,32 @@
+.main-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 3.125em;
+    padding-top: 2.31em;
+    width: 90%;
+}
+
+.main-header__img{
+    border-radius: 50%;
+    height: 9.25rem;
+    overflow: hidden;
+    width: 9.25rem;
+    
+    img { 
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.main-header__heading{
+    font-size: 1.5rem;
+    margin-top: 1.46em;
+    margin-bottom: 0.95em;
+}
+
+.main-header__description{
+    line-height: 1.4em;
+}

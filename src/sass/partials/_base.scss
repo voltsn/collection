@@ -1,0 +1,47 @@
+@import "variables";
+
+// || Reset rules
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+// || General Rules
+body{
+    background-color: $primaryColor;
+    display: flex;
+    flex-direction: column;
+    font-family: $bodyFont;
+    min-height: 100%;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: $headingFont;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.highlight {
+    color: $accent;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}

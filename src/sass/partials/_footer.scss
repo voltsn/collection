@@ -1,0 +1,26 @@
+.attribution{
+    font-size: 0.75rem;
+    margin-top: 4.17em;
+    padding-bottom: 3.33em;
+    text-align: center;
+
+    .attribution__link{
+        position: relative;
+        &::after{
+            bottom: 0;
+            content: "";
+            background-color: $accent;
+            height: 2px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+
+        &:hover{
+            color: $accent;
+            &::after{
+                background-color: $secondaryColor;
+            }
+        }
+    }
+}

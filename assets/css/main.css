@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #CEC6FF;
+  display: flex;
+  flex-direction: column;
+  font-family: "Monserrat", sans-serif;
+  min-height: 100%;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface";
+}
+
+main {
+  flex-grow: 1;
+}
+
+.highlight {
+  color: #BC5090;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 3.125em;
+  padding-top: 2.31em;
+  width: 90%;
+}
+
+.main-header__img {
+  border-radius: 50%;
+  height: 9.25rem;
+  overflow: hidden;
+  width: 9.25rem;
+}
+.main-header__img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.main-header__heading {
+  font-size: 1.5rem;
+  margin-top: 1.46em;
+  margin-bottom: 0.95em;
+}
+
+.main-header__description {
+  line-height: 1.4em;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #FFDFFF;
+  width: 90%;
+  min-width: 18.375rem;
+}
+
+.card__header {
+  height: 11.375rem;
+  overflow: hidden;
+}
+.card__header img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 1.06em 1.25em;
+}
+
+.card__info .card__director {
+  color: #2F2F2F;
+  font-size: 0.75rem;
+  margin-top: 0.42em;
+}
+.card__info .card__plot {
+  line-height: 1.25em;
+  margin-top: 0.94em;
+}
+
+.tags {
+  display: flex;
+  list-style: none;
+  gap: 0.56em;
+  margin-bottom: 0.5em;
+}
+.tags .tags__item {
+  background-color: #EBD5FF;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0.56em;
+}
+.tags .tags__item:hover {
+  background-color: #BC5090;
+  color: #fff;
+}
+
+.card__footer {
+  padding: 15px 20px;
+}
+.card__footer .card__footer__link {
+  color: #BC5090;
+}
+.card__footer .card__footer__link:hover {
+  color: #CEC6FF;
+}
+
+.attribution {
+  font-size: 0.75rem;
+  margin-top: 4.17em;
+  padding-bottom: 3.33em;
+  text-align: center;
+}
+.attribution .attribution__link {
+  position: relative;
+}
+.attribution .attribution__link::after {
+  bottom: 0;
+  content: "";
+  background-color: #BC5090;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.attribution .attribution__link:hover {
+  color: #BC5090;
+}
+.attribution .attribution__link:hover::after {
+  background-color: #FFDFFF;
+}
+
+/*# sourceMappingURL=main.css.map */
