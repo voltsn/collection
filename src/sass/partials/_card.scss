@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 42px;
 }
 
 .card{
@@ -60,6 +61,17 @@
 
 .card__footer{
     padding: 15px 20px;
+    position: relative;
+    &::before{
+        background-color: $lightGray;
+        content: "";
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        top: 0;
+        width: calc(100% - 40px);
+    }
 
     .card__footer__link{
         color: $accent;

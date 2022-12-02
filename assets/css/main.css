@@ -54,6 +54,7 @@ main {
 
 .main-header__img {
   border-radius: 50%;
+  box-shadow: 0 0 20px 10px rgba(189, 81, 146, 0.4);
   height: 9.25rem;
   overflow: hidden;
   width: 9.25rem;
@@ -78,6 +79,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 42px;
 }
 
 .card {
@@ -130,6 +132,17 @@ main {
 
 .card__footer {
   padding: 15px 20px;
+  position: relative;
+}
+.card__footer::before {
+  background-color: #EBD5FF;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 0;
+  width: calc(100% - 40px);
 }
 .card__footer .card__footer__link {
   color: #BC5090;
