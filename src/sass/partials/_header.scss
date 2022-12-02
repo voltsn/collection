@@ -22,12 +22,32 @@
     }
 }
 
+.main-header__text{
+    text-align: center;
+    max-width: 491px;
+}
+
 .main-header__heading{
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
     margin-top: 1.46em;
     margin-bottom: 0.95em;
 }
 
 .main-header__description{
     line-height: 1.4em;
+}
+
+@media screen and (min-width: 768px) {
+    .main-header{
+        flex-direction: unset;
+        gap: 52px;
+        // justify-content: center;
+    }
+    .main-header__text{
+        text-align: unset;
+        .main-header__heading{
+            margin-bottom: 20px;
+            margin-top: unset;
+        }
+    }
 }

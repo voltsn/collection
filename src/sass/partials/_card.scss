@@ -3,6 +3,8 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 42px;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .card{
@@ -10,7 +12,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    max-width: 330px;
+    max-width: 336px;
 }
 
 .card__header {
@@ -88,5 +90,11 @@
 @media screen and (min-width: 480px) {
     .cards-container {
         gap: 25px;
+    }
+}
+
+@media screen and (min-width: 776px) {
+    .cards-container{
+        justify-content: unset;
     }
 }
