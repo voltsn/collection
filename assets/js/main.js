@@ -1,18 +1,11 @@
-fetch("./assets/js/movies.json")
-    .then((response) => {
-        if(!response.ok)
-            throw new Error("Failed to fetch file.");
-        return response.json();
-    })
-    .then((moviesJSON) => {
-        for(let movie of moviesJSON.movies){
-            document.querySelector(".cards-container")
-                .appendChild(createCard(movie));
-        }
-    })
-    .catch((error) => {
-        console.error(error);
-    })
+async function getMovies() {
+    const response = await fetch("./assets/js/movies.json");
+    const moviesJson = await response.json();
+    for(let movie of moviesJson.movies){
+        document.querySelector(".cards-container")
+            .appendChild(createCard(movie));
+    }
+} 
 
 function createCard(movie) {
     let card = document.createElement("article");
@@ -92,3 +85,7 @@ function createTextElement(htmlTag, text, cssClass) {
     element.appendChild(document.createTextNode(text));
     return element;
 }
+
+getMovies().catch((error) => {
+    console.error(error);
+});
