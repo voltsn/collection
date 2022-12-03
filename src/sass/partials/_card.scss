@@ -35,11 +35,14 @@
 
 .card__info{
     flex-grow: 1;
-    .card__cast,
-    .card__director{
+    .card__cast{
         color: $darkGray;
         font-size: 0.75rem;
         margin-top: 0.42em;
+    }
+
+    .card__director{
+        margin-top: 0.6em;
     }
 
     .card__plot{

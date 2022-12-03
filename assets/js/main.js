@@ -12,7 +12,7 @@ function createCard(movie) {
     card.classList.add("card");
     
     let header = cardHeader(movie.poster.src, movie.poster.alt);
-    let body = cardBody(movie.title, movie.director, movie.plot, movie.genre);
+    let body = cardBody(movie.title,movie.releaseYear, movie.cast, movie.director, movie.plot, movie.genre);
     let footer = cardFooter(movie.trailer);
 
     card.appendChild(header);
@@ -34,21 +34,23 @@ function cardHeader(posterSrc, posterAlt){
     return header;
 }
 
-function cardBody(title, director, plot, tags){
+function cardBody(title, releaseYear, cast, director, plot, tags){
     let body = document.createElement("div");
     body.classList.add("card__body");
 
     let info = document.createElement("div");
     info.classList.add("card__info");
 
-    let heading = createTextElement("h2", title, ["card__heading"]);
-    let directorListing = createTextElement("p", director, ["card__director"]);
+    let heading = createTextElement("h2", `${title} — ${releaseYear}`, ["card__heading"]);
+    let castListing = createTextElement("p", cast, ["card__cast"]);
+    let directorListing = createTextElement("p", `Directed by ${director}`, ["card__director"]);
     let plotListing = createTextElement("p", plot, ["card__plot"]);
 
 
     info.appendChild(heading);
-    info.appendChild(directorListing);
+    info.appendChild(castListing);
     info.appendChild(plotListing);
+    info.appendChild(directorListing);
 
     let tagsList = document.createElement("ul");
     tagsList.classList.add("tags");

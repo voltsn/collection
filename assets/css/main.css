@@ -130,11 +130,13 @@ main {
 .card__info {
   flex-grow: 1;
 }
-.card__info .card__cast,
-.card__info .card__director {
+.card__info .card__cast {
   color: #2F2F2F;
   font-size: 0.75rem;
   margin-top: 0.42em;
+}
+.card__info .card__director {
+  margin-top: 0.6em;
 }
 .card__info .card__plot {
   line-height: 1.25em;
