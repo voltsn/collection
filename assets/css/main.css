@@ -113,6 +113,7 @@ main {
 .card__header {
   height: 11.375rem;
   overflow: hidden;
+  cursor: pointer;
 }
 .card__header img {
   object-fit: cover;
@@ -123,9 +124,14 @@ main {
   display: flex;
   flex-direction: column-reverse;
   padding: 1.06em 1.25em;
+  flex-grow: 1;
 }
 
-.card__info fl .card__director {
+.card__info {
+  flex-grow: 1;
+}
+.card__info .card__cast,
+.card__info .card__director {
   color: #2F2F2F;
   font-size: 0.75rem;
   margin-top: 0.42em;
@@ -182,6 +188,14 @@ main {
 @media screen and (min-width: 776px) {
   .cards-container {
     justify-content: unset;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cards-container {
+    gap: 1rem;
+  }
+  .card {
+    max-width: 294px;
   }
 }
 .attribution {

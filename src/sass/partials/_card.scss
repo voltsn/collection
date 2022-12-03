@@ -18,6 +18,7 @@
 .card__header {
     height: 11.375rem;
     overflow: hidden;
+    cursor: pointer;
 
     img{
         object-fit: cover;
@@ -29,10 +30,12 @@
     display: flex;
     flex-direction: column-reverse;
     padding: 1.06em 1.25em;
+    flex-grow: 1;
 }
 
 .card__info{
-    fl
+    flex-grow: 1;
+    .card__cast,
     .card__director{
         color: $darkGray;
         font-size: 0.75rem;
@@ -96,5 +99,15 @@
 @media screen and (min-width: 776px) {
     .cards-container{
         justify-content: unset;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cards-container{
+        gap: 1rem;
+    }
+    
+    .card{
+        max-width: 294px;
     }
 }
