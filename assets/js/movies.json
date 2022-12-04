@@ -1,6 +1,45 @@
 {
     "movies": [
         {
+            "title": "The Wailing",
+            "releaseYear": 2016,
+            "director": ["Na Hong-jin"],
+            "cast": ["Jun Kunimura", "Hwang Jung-min", "Kwak Do-won"],
+            "genre": ["Drama", "Horror", "Mystery"],
+            "poster": {
+                "src": "https://m.media-amazon.com/images/M/MV5BODkwMTgxNjA2NF5BMl5BanBnXkFtZTgwMDc0OTcwOTE@._V1_.jpg",
+                "alt": "The Wailing (2016)"
+            },
+            "plot": "Soon after a stranger arrives in a little village, a mysterious sickness starts spreading. A policeman, drawn into the incident, is forced to solve the mystery in order to save his daughter.",
+            "trailer": "https://www.imdb.com/video/vi4211782681/?playlistId=tt5215952&ref_=tt_ov_vi"
+        },
+        {
+            "title": "Everything Everywhere All at Once",
+            "releaseYear": 2022,
+            "director": ["Dan Kwan","Daniel Scheinert"],
+            "cast": ["Michelle Yeoh", "Stephanie Hsu", "Jamie Lee Curtis"],
+            "genre": ["Horror", "Mystery", "Sci-Fi"],
+            "poster": {
+                "src": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg",
+                "alt": "Jamie Lee Curtis, Michelle Yeoh, James Hong, Ke Huy Quan, and Stephanie Hsu in Everything Everywhere All at Once (2022)"
+            },
+            "plot": "An aging Chinese immigrant is swept up in an insane adventure, in which she alone can save the world by exploring other universes connecting with the lives she could have led.",
+            "trailer": "https://www.imdb.com/video/vi1708573209/?playlistId=tt6710474&ref_=tt_ov_vi"
+        },
+        {
+            "title": "Nope",
+            "releaseYear": 2022,
+            "director": ["Jordan Peele"],
+            "cast": ["Daniel kaluuya", "Keke Palmer", "Brandon Perea"],
+            "genre": ["Action", "Adventure", "Comedy"],
+            "poster": {
+                "src": "https://m.media-amazon.com/images/M/MV5BMGIyNTI3NWItNTJkOS00MGYyLWE4NjgtZDhjMWQ4Y2JkZTU5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg",
+                "alt": "Jordan Peele, Keke Palmer, Daniel Kaluuya, and Steven Yeun in Nope (2022)"
+            },
+            "plot": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling discovery.",
+            "trailer": "https://www.imdb.com/video/vi1273872921/?playlistId=tt10954984&ref_=tt_ov_vi"
+        },
+        {
             "title": "Three Thousand Years of Longing",
             "releaseYear": 2022,
             "director": ["George Miller"],
