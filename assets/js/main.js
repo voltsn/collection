@@ -1,6 +1,7 @@
 async function getMovies() {
     const response = await fetch("./assets/js/movies.json");
     const moviesJson = await response.json();
+
     for(let movie of moviesJson.movies){
         document.querySelector(".cards-container")
             .appendChild(createCard(movie));
@@ -14,6 +15,14 @@ function createCard(movie) {
     let header = cardHeader(movie.poster.src, movie.poster.alt);
     let body = cardBody(movie.title,movie.releaseYear, movie.cast, movie.director, movie.plot, movie.genre);
     let footer = cardFooter(movie.trailer);
+
+    header.addEventListener("click", function() {
+        if (this.parentElement.style.minHeight == "" ) {
+            this.parentElement.style.minHeight = this.parentElement.clientHeight + "px";
+        }
+
+        this.nextSibling.classList.toggle("collapse");
+    })
 
     card.appendChild(header);
     card.appendChild(body);

@@ -13,12 +13,14 @@
     flex-direction: column;
     width: 90%;
     max-width: 336px;
+    // min-height: 512px;
 }
 
 .card__header {
     height: 11.375rem;
     overflow: hidden;
     cursor: pointer;
+    flex-grow: 1;
 
     img{
         object-fit: cover;
@@ -31,6 +33,15 @@
     flex-direction: column-reverse;
     padding: 1.06em 1.25em;
     flex-grow: 1;
+    max-height: 100%;
+    overflow: hidden;
+    transition: max-height 500ms ease-in-out, padding 450ms linear;
+
+    &.collapse {
+        max-height: 0;
+        padding-top: unset;
+        padding-bottom: unset;
+    }
 }
 
 .card__info{
