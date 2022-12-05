@@ -14,8 +14,8 @@ It was a challenge given by BeCode, whose goal was to summarize our knowledge of
 - The DOM
 
 # Implementation Details
-The data for movies is stored inside a `json` file called `movies.json`.
-Containing an array movies, each movie is an object with the following structure: 
+The data for the movies is stored inside a `json` file called `movies.json`.
+Containing an array of movies, each movie is an object with the following structure: 
 ```json
 {
     "title": "Nope",
@@ -54,5 +54,5 @@ async function getMovies() {
 } 
 ```
 # Takeaway
-It was a fun project to work on, and it allowed me to experiment with all parts of frontend work. From designing the webpage and coding it. It revealed certain blindspots in my project planning. That I'll be actively working on.
+It was a fun project to work on, and it allowed me to experiment with all parts of frontend work. From designing the webpage to coding it. It revealed certain blindspots in my project planning. That I'll be actively working on.
 
