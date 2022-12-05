@@ -3,9 +3,19 @@
         {
             "title": "The Wailing",
             "releaseYear": 2016,
-            "director": ["Na Hong-jin"],
-            "cast": ["Jun Kunimura", "Hwang Jung-min", "Kwak Do-won"],
-            "genre": ["Drama", "Horror", "Mystery"],
+            "director": [
+                "Na Hong-jin"
+            ],
+            "cast": [
+                "Jun Kunimura",
+                "Hwang Jung-min",
+                "Kwak Do-won"
+            ],
+            "genre": [
+                "Drama",
+                "Horror",
+                "Mystery"
+            ],
             "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BODkwMTgxNjA2NF5BMl5BanBnXkFtZTgwMDc0OTcwOTE@._V1_.jpg",
                 "alt": "The Wailing (2016)"
@@ -16,9 +26,20 @@
         {
             "title": "Everything Everywhere All at Once",
             "releaseYear": 2022,
-            "director": ["Dan Kwan","Daniel Scheinert"],
-            "cast": ["Michelle Yeoh", "Stephanie Hsu", "Jamie Lee Curtis"],
-            "genre": ["Horror", "Mystery", "Sci-Fi"],
+            "director": [
+                "Dan Kwan",
+                "Daniel Scheinert"
+            ],
+            "cast": [
+                "Michelle Yeoh",
+                "Stephanie Hsu",
+                "Jamie Lee Curtis"
+            ],
+            "genre": [
+                "Horror",
+                "Mystery",
+                "Sci-Fi"
+            ],
             "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_.jpg",
                 "alt": "Jamie Lee Curtis, Michelle Yeoh, James Hong, Ke Huy Quan, and Stephanie Hsu in Everything Everywhere All at Once (2022)"
@@ -29,9 +50,19 @@
         {
             "title": "Nope",
             "releaseYear": 2022,
-            "director": ["Jordan Peele"],
-            "cast": ["Daniel kaluuya", "Keke Palmer", "Brandon Perea"],
-            "genre": ["Action", "Adventure", "Comedy"],
+            "director": [
+                "Jordan Peele"
+            ],
+            "cast": [
+                "Daniel kaluuya",
+                "Keke Palmer",
+                "Brandon Perea"
+            ],
+            "genre": [
+                "Action",
+                "Adventure",
+                "Comedy"
+            ],
             "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BMGIyNTI3NWItNTJkOS00MGYyLWE4NjgtZDhjMWQ4Y2JkZTU5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_.jpg",
                 "alt": "Jordan Peele, Keke Palmer, Daniel Kaluuya, and Steven Yeun in Nope (2022)"
@@ -42,8 +73,14 @@
         {
             "title": "Three Thousand Years of Longing",
             "releaseYear": 2022,
-            "director": ["George Miller"],
-            "cast": ["Tilda Swinton","Idris Elba","Erdil Yasaroglu"],
+            "director": [
+                "George Miller"
+            ],
+            "cast": [
+                "Tilda Swinton",
+                "Idris Elba",
+                "Erdil Yasaroglu"
+            ],
             "genre": [
                 "Fantasy",
                 "Romance",
@@ -59,14 +96,20 @@
         {
             "title": "Parasite",
             "releaseYear": 2019,
-            "director": ["Bong Joon Ho"],
-            "cast": ["Song Kang-ho","Lee Sun-kyun","Cho Yeo-jeong"],
+            "director": [
+                "Bong Joon Ho"
+            ],
+            "cast": [
+                "Song Kang-ho",
+                "Lee Sun-kyun",
+                "Cho Yeo-jeong"
+            ],
             "genre": [
                 "Drama",
                 "Thriller"
             ],
-            "poster":{
-                "src":"https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+            "poster": {
+                "src": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
                 "alt": "Song Kang-ho, Jung Ik-han, Jung Hyun-jun, Joo-hyung Lee, Lee Ji-hye, Lee Sun-kyun, Cho Yeo-jeong, Park Myeong-hoon, Park Keun-rok, Jang Hye-jin, Choi Woo-sik, Park Seo-joon, Park So-dam, Lee Jeong-eun, and Jung Ji-so in Parasite (2019)"
             },
             "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
@@ -75,14 +118,20 @@
         {
             "title": "The Handmaiden",
             "releaseYear": 2016,
-            "director": ["Park Chan-wook"],
-            "cast": ["Kim Min-hee","Ha Jung-woo","Cho Jin-woong"],
+            "director": [
+                "Park Chan-wook"
+            ],
+            "cast": [
+                "Kim Min-hee",
+                "Ha Jung-woo",
+                "Cho Jin-woong"
+            ],
             "genre": [
                 "Drama",
                 "Romance",
                 "Thriller"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BNDJhYTk2MTctZmVmOS00OTViLTgxNjQtMzQxOTRiMDdmNGRjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
                 "alt": "Kim Min-hee, Ha Jung-woo, Cho Jin-woong, and Kim Tae-ri in The Handmaiden (2016)"
             },
@@ -92,14 +141,20 @@
         {
             "title": "The Shape of Water",
             "releaseYear": 2017,
-            "director": ["Guillermo del Toro"],
-            "cast":["Sally Hawkins","Octavia Spencer","Michael Shannon"],
+            "director": [
+                "Guillermo del Toro"
+            ],
+            "cast": [
+                "Sally Hawkins",
+                "Octavia Spencer",
+                "Michael Shannon"
+            ],
             "genre": [
                 "Drama",
                 "Fantasy",
                 "Romance"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BNGNiNWQ5M2MtNGI0OC00MDA2LWI5NzEtMmZiYjVjMDEyOWYzXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
                 "alt": "Doug Jones and Sally Hawkins in The Shape of Water (2017)"
             },
@@ -109,14 +164,20 @@
         {
             "title": "Blade Runner 2049",
             "releaseYear": 2017,
-            "director": ["Denis Villeneuve"],
-            "cast": ["Harrison Ford","Ryan Gosling","Ana de Armas"],
+            "director": [
+                "Denis Villeneuve"
+            ],
+            "cast": [
+                "Harrison Ford",
+                "Ryan Gosling",
+                "Ana de Armas"
+            ],
             "genre": [
                 "Action",
                 "Sci-Fi",
                 "Mystery"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",
                 "alt": "Harrison Ford, Jared Leto, Ryan Gosling, and Ana de Armas in Blade Runner 2049 (2017)"
             },
@@ -126,14 +187,20 @@
         {
             "title": "Dune",
             "releaseYear": 2021,
-            "director": ["Denis Villeneuve"],
-            "cast": ["Timothée Chalamet", "Rebecca Ferguson", "Zendaya"],
+            "director": [
+                "Denis Villeneuve"
+            ],
+            "cast": [
+                "Timothée Chalamet",
+                "Rebecca Ferguson",
+                "Zendaya"
+            ],
             "genre": [
                 "Adventure",
                 "Sci-Fi",
                 "Action"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
                 "alt": "Javier Bardem, Josh Brolin, Rebecca Ferguson, Jason Momoa, Sharon Duncan-Brewster, Oscar Isaac, Timothée Chalamet, and Zendaya in Dune (2021)"
             },
@@ -143,13 +210,19 @@
         {
             "title": "Interstellar",
             "releaseYear": 2014,
-            "director": ["Christopher Nolan"],
-            "cast":["Matthew McConaughey","Anne Hathaway", "Jessica Chastain"],
+            "director": [
+                "Christopher Nolan"
+            ],
+            "cast": [
+                "Matthew McConaughey",
+                "Anne Hathaway",
+                "Jessica Chastain"
+            ],
             "genre": [
                 "Adventure",
                 "Sci-Fi"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
                 "alt": "Matthew McConaughey in Interstellar (2014)"
             },
@@ -159,13 +232,19 @@
         {
             "title": "Spirited Away",
             "releaseYear": 2001,
-            "director": ["Hayao Miyazaki"],
-            "cast":["Daveigh Chase", "Suzanne Pleshette","Miyu Irino"],
+            "director": [
+                "Hayao Miyazaki"
+            ],
+            "cast": [
+                "Daveigh Chase",
+                "Suzanne Pleshette",
+                "Miyu Irino"
+            ],
             "genre": [
                 "Animation",
                 "Family"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
                 "alt": "Spirited Away (2001)"
             },
@@ -175,13 +254,20 @@
         {
             "title": "Anastasia",
             "releaseYear": 1997,
-            "director": ["Don Bluth", "Gary Goldman"],
-            "cast":["Meg Ryan", "John Cusack","Christopher Lloyd"],
+            "director": [
+                "Don Bluth",
+                "Gary Goldman"
+            ],
+            "cast": [
+                "Meg Ryan",
+                "John Cusack",
+                "Christopher Lloyd"
+            ],
             "genre": [
                 "Animation",
                 "Drama"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BNGJiNWFlYTMtZTBiZi00ZTVmLWJmZmMtNzEzYzZjNzYzZmRmXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
                 "alt": "John Cusack, Meg Ryan, Christopher Lloyd, Liz Callaway, Jim Cummings, and Jonathan Dokuchitz in Anastasia (1997)"
             },
@@ -191,13 +277,19 @@
         {
             "title": "I Saw The Devil",
             "releaseYear": 2010,
-            "director": ["Jee-woon Kim"],
-            "cast": ["Lee Byung-hun","Choi Min-Sik","Jeon Gook-hwan"],
+            "director": [
+                "Jee-woon Kim"
+            ],
+            "cast": [
+                "Lee Byung-hun",
+                "Choi Min-Sik",
+                "Jeon Gook-hwan"
+            ],
             "genre": [
                 "Thriller",
                 "Crime"
             ],
-            "poster":{
+            "poster": {
                 "src": "https://m.media-amazon.com/images/M/MV5BZjRmNjc5MTYtYjc3My00ZjNiLTg4YjUtMTQ0ZTFkZmMxMDUzXkEyXkFqcGdeQXVyNDY5MTUyNjU@._V1_.jpg",
                 "alt": "Choi Min-sik and Lee Byung-hun in I Saw the Devil (2010)"
             },
