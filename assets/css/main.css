@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Abril Fatface";
+  font-family: "Abril Fatface", serif;
 }
 
 main {
@@ -67,7 +67,7 @@ main {
 
 .main-header__text {
   text-align: center;
-  max-width: 491px;
+  max-width: 30.7rem;
 }
 
 .main-header__heading {
@@ -80,16 +80,16 @@ main {
   line-height: 1.4em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   .main-header {
     flex-direction: unset;
-    gap: 52px;
+    gap: 3.25rem;
   }
   .main-header__text {
     text-align: unset;
   }
   .main-header__text .main-header__heading {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     margin-top: unset;
   }
 }
@@ -97,7 +97,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 42px;
+  gap: 2.62rem;
   margin: 0 auto;
   width: 90%;
 }
@@ -107,7 +107,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 90%;
-  max-width: 336px;
+  max-width: 21rem;
 }
 
 .card__header {
@@ -171,7 +171,7 @@ main {
 }
 
 .card__footer {
-  padding: 15px 20px;
+  padding: 0.93rem 1.25rem;
   position: relative;
 }
 .card__footer::before {
@@ -182,7 +182,7 @@ main {
   position: absolute;
   transform: translateX(-50%);
   top: 0;
-  width: calc(100% - 40px);
+  width: calc(100% - 2.5rem);
 }
 .card__footer .card__footer__link {
   color: #BC5090;
@@ -191,22 +191,22 @@ main {
   color: #CEC6FF;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 30rem) {
   .cards-container {
-    gap: 25px;
+    gap: 1.6rem;
   }
 }
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 48.5rem) {
   .cards-container {
     justify-content: unset;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   .cards-container {
     gap: 1rem;
   }
   .card {
-    max-width: 294px;
+    max-width: 18.4rem;
   }
 }
 .attribution {

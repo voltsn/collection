@@ -24,7 +24,7 @@
 
 .main-header__text{
     text-align: center;
-    max-width: 491px;
+    max-width: 30.7rem;
 }
 
 .main-header__heading{
@@ -37,15 +37,15 @@
     line-height: 1.4em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
     .main-header{
         flex-direction: unset;
-        gap: 52px;
+        gap: 3.25rem;
     }
     .main-header__text{
         text-align: unset;
         .main-header__heading{
-            margin-bottom: 20px;
+            margin-bottom: 1.25rem;
             margin-top: unset;
         }
     }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 42px;
+    gap: 2.62rem;
     margin: 0 auto;
     width: 90%;
 }
@@ -12,8 +12,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    max-width: 336px;
-    // min-height: 512px;
+    max-width: 21rem;
 }
 
 .card__header {
@@ -83,7 +82,7 @@
 }
 
 .card__footer{
-    padding: 15px 20px;
+    padding: 0.93rem 1.25rem;
     position: relative;
     &::before{
         background-color: $lightGray;
@@ -93,7 +92,7 @@
         position: absolute;
         transform: translateX(-50%);
         top: 0;
-        width: calc(100% - 40px);
+        width: calc(100% - 2.5rem);
     }
 
     .card__footer__link{
@@ -104,24 +103,24 @@
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 30rem) {
     .cards-container {
-        gap: 25px;
+        gap: 1.6rem;
     }
 }
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 48.5rem) {
     .cards-container{
         justify-content: unset;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     .cards-container{
         gap: 1rem;
     }
     
     .card{
-        max-width: 294px;
+        max-width: 18.4rem;
     }
 }
