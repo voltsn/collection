@@ -53,7 +53,7 @@ function cardBody(title, releaseYear, cast, director, plot, tags){
     let heading = createTextElement("h2", `${title} — ${releaseYear}`, ["card__heading"]);
     let castListing = createTextElement("p", cast, ["card__cast"]);
     let directorListing = createTextElement("p", `Directed by ${director}`, ["card__director"]);
-    let plotListing = createTextElement("p", plot, ["card__plot"]);
+    let plotListing = createTextElement("p", formatPlot(plot), ["card__plot"]);
 
 
     info.appendChild(heading);
@@ -95,6 +95,16 @@ function createTextElement(htmlTag, text, cssClass) {
 
     element.appendChild(document.createTextNode(text));
     return element;
+}
+
+function formatPlot(text) {
+    let words = text.split(" ")
+    if (words.length <= 21){
+        return text;
+    }
+
+    let shortenedText = words.slice(0, 21).join(" ");
+    return shortenedText + "...";
 }
 
 getMovies().catch((error) => {
